@@ -4,6 +4,14 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.header{
+    width: 100%;
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
 .navbar-default {
   background: none;
 }
@@ -13,4 +21,32 @@ body{
 
 .top-nav-bar a{
     color: #FFF;
+    font-size: x-large;
 }
+
+.white-box{
+    background-color: #d8dbdd;
+    padding: 105px 0;
+    opacity: 0.7;
+    margin: 100px 0px;
+}
+
+.white-box h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.white-box h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #ad6c12;
+}
+
+.white-box a{
+    background-color: #FFF;
+    font-size: 35px;
+    text-decoration: none;
+    color: #2c3a42;
+    padding: 0 5px;
+}
+
