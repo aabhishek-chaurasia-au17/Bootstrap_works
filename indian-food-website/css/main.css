@@ -6,10 +6,10 @@ body{
 
 .header{
     width: 100%;
-    background-image: url("../images/bg1.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 5;
 }
 
 .navbar-default {
@@ -56,4 +56,8 @@ body{
 
 .tastes-col{
     background-color: #d4d8d9;
+}
+
+.indian-plate{
+    
 }
