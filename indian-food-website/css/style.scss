@@ -85,3 +85,32 @@ body{
         padding: 0 60px;
     }
 }
+
+.col-traditional{
+    
+    background-image: url(../images/bg4.jpg);
+    background-position: left top;
+    background-size: cover;
+    padding: 40px 0 10px 0;
+
+    h2{
+        font-weight: bold;
+    }
+    
+    p{
+        font-size: 14px;
+        padding: 20px 20% 0;
+        text-align: center;
+    }
+
+    i{
+        color: #2a3b40;
+    }
+
+    a{
+        text-decoration: none;
+        color: #2a3b40;
+        padding: 0 20px;
+        font-weight: bolder;
+    }
+}

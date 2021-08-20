@@ -78,4 +78,28 @@ body {
   font-weight: normal;
   font-size: 13px;
   padding: 0 60px;
+}
+
+.col-traditional {
+  background-image: url(../images/bg4.jpg);
+  background-position: left top;
+  background-size: cover;
+  padding: 40px 0 10px 0;
+}
+.col-traditional h2 {
+  font-weight: bold;
+}
+.col-traditional p {
+  font-size: 14px;
+  padding: 20px 20% 0;
+  text-align: center;
+}
+.col-traditional i {
+  color: #2a3b40;
+}
+.col-traditional a {
+  text-decoration: none;
+  color: #2a3b40;
+  padding: 0 20px;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
