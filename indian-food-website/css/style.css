@@ -138,4 +138,15 @@ html {
   background: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: saturate(180%) blur(10px);
           backdrop-filter: saturate(180%) blur(10px);
+}
+
+.food-icons {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

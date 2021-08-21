@@ -156,5 +156,12 @@ html{
 }
 
 .food-icons{
-
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-radius: 50%;
 }
