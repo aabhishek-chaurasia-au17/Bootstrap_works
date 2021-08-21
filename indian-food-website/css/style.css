@@ -53,6 +53,14 @@ body {
 .tastes-col {
   background-color: #d4d8d9;
 }
+.tastes-col i {
+  font-size: 20px;
+  color: #2a3b40;
+}
+.tastes-col h6 {
+  font-weight: bold;
+  padding-top: 15px;
+}
 
 .indian-plate {
   background-image: url(../images/bg2.jpg);
