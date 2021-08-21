@@ -3,6 +3,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   width: 100%;
   background: transparent;
@@ -121,4 +125,17 @@ body {
   color: #2a3b40;
   padding: 0 20px;
   font-weight: bolder;
+}
+
+.col-discover {
+  background-image: url(../images/bg5.jpg);
+  background-position: left top;
+  background-size: cover;
+  padding: 180px 0 0 0;
+}
+
+.bg-menu {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
 }/*# sourceMappingURL=style.css.map */
