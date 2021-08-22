@@ -153,6 +153,35 @@ html{
 .bg-menu{
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: saturate(180%) blur(10px);
+
+    h1{
+        font-size: 40px;
+        color: #2a3b40;
+        line-height: 40px;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 40px;
+        color: #ad6c12;
+        line-height: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h3{
+        font-size: medium;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p{  
+        font-weight: normal;
+        font-size: 13px;
+        padding: 0 80px 0 0;
+    }
+
+    p strong{ font-size: 15px;}
 }
 
 .food-icons{
@@ -165,3 +194,21 @@ html{
     background-color: #FFF;
     border-radius: 50%;
 }
+
+.only-bg{
+    background-image: url(../images/bg6.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.col-book{
+    background-color: #2a3b40;
+    color: #FFF;
+
+    h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+}
+

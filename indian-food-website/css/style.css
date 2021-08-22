@@ -139,6 +139,32 @@ html {
   -webkit-backdrop-filter: saturate(180%) blur(10px);
           backdrop-filter: saturate(180%) blur(10px);
 }
+.bg-menu h1 {
+  font-size: 40px;
+  color: #2a3b40;
+  line-height: 40px;
+  font-weight: bold;
+}
+.bg-menu h2 {
+  font-size: 40px;
+  color: #ad6c12;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bg-menu h3 {
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bg-menu p {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 0 80px 0 0;
+}
+.bg-menu p strong {
+  font-size: 15px;
+}
 
 .food-icons {
   width: 80px;
@@ -149,4 +175,20 @@ html {
   justify-content: center;
   background-color: #FFF;
   border-radius: 50%;
+}
+
+.only-bg {
+  background-image: url(../images/bg6.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.col-book {
+  background-color: #2a3b40;
+  color: #FFF;
+}
+.col-book h1 {
+  font-size: xx-large;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
