@@ -191,4 +191,11 @@ html {
 .col-book h1 {
   font-size: xx-large;
   text-align: center;
+}
+
+.only-bg-2 {
+  background-image: url(../images/bg7.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
