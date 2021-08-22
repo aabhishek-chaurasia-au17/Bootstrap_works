@@ -192,10 +192,73 @@ html {
   font-size: xx-large;
   text-align: center;
 }
+.col-book .people-select {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+}
+.col-book [type=text] {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+}
+.col-book [type=email] {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+}
+.col-book [type=date] {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+}
+.col-book [type=time] {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+}
+.col-book ::-moz-placeholder {
+  color: white;
+}
+.col-book :-ms-input-placeholder {
+  color: white;
+}
+.col-book ::placeholder {
+  color: white;
+}
+.col-book .sub-btn {
+  background-color: #2a3b40;
+  border: white solid 1px;
+  color: white;
+  padding: 5px 0;
+}
 
 .only-bg-2 {
   background-image: url(../images/bg7.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
+}
+
+.discover-bg {
+  background-color: #d4d8d9;
+  padding: 50px 0;
+}
+.discover-bg h1 {
+  font-size: 40px;
+  color: #2a3b40;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.discover-bg h2 {
+  font-size: 40px;
+  color: #ad6c12;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.discover-bg figure img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

@@ -210,6 +210,48 @@ html{
         font-size: xx-large;
         text-align: center;
     }
+
+    .people-select{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+    }
+
+    [type="text"]{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+    }
+
+    [type="email"]{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+    }
+
+    [type="date"]{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+    }
+
+    [type="time"]{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    .sub-btn{
+        background-color: #2a3b40;
+        border: white solid 1px;
+        color: white;
+        padding: 5px 0;
+    }
+
 }
 
 .only-bg-2{
@@ -219,3 +261,32 @@ html{
     height: 100vh;
 }
 
+.discover-bg{
+    background-color: #d4d8d9;
+    padding: 50px 0;
+    
+
+    h1{
+        font-size: 40px;
+        color: #2a3b40;
+        line-height: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 40px;
+        color: #ad6c12;
+        line-height: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    
+
+    figure img{
+        width: 100%;
+        
+    }
+}
