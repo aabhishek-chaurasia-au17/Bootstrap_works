@@ -3,6 +3,7 @@
     h1{
         font-size: 50px;
         font-weight: bold;
+        color: #2c3a42;
     }
 
     h2{
@@ -29,8 +30,8 @@
     }
 }
 
-@mixin img-bg{
-    background-image:url(../images/bg2.jpg);
+@mixin img-bg($para1){
+    background-image:$para1;
     background-position: center center;
     background-size: cover;
     padding: 50px 0;

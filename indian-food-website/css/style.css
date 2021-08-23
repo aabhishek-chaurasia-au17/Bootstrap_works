@@ -26,6 +26,9 @@ html {
   color: #FFF;
   font-size: x-large;
 }
+.top-nav-bar a:hover {
+  color: #ad6c12;
+}
 
 .white-box {
   padding: 105px 0;
@@ -37,6 +40,7 @@ html {
 .white-box h1 {
   font-size: 50px;
   font-weight: bold;
+  color: #2c3a42;
 }
 .white-box h2 {
   font-size: 55px;
@@ -47,7 +51,7 @@ html {
   background-color: #FFF;
   font-size: 35px;
   text-decoration: none;
-  color: #2c3a42;
+  color: #2a3b40;
   padding: 0 10px;
 }
 
@@ -60,7 +64,7 @@ html {
 }
 
 .tastes-col {
-  background-color: #d4d8d9;
+  background-color: #FFF;
 }
 .tastes-col i {
   font-size: 20px;
@@ -118,6 +122,7 @@ html {
   background-image: url(../images/bg4.jpg);
   background-position: center center;
   background-size: cover;
+  padding: 50px 0;
   padding: 40px 0 10px 0;
 }
 .col-traditional h2 {
@@ -140,8 +145,9 @@ html {
 
 .col-discover {
   background-image: url(../images/bg5.jpg);
-  background-position: left top;
+  background-position: center center;
   background-size: cover;
+  padding: 50px 0;
   padding: 180px 0 0 0;
 }
 
@@ -190,8 +196,9 @@ html {
 
 .only-bg {
   background-image: url(../images/bg6.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
   height: 100vh;
 }
 
@@ -205,54 +212,59 @@ html {
 }
 .col-book .people-select {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
 }
 .col-book [type=text] {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
 }
 .col-book [type=email] {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
 }
 .col-book [type=date] {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
 }
 .col-book [type=time] {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
 }
 .col-book ::-moz-placeholder {
-  color: white;
+  color: #FFF;
 }
 .col-book :-ms-input-placeholder {
-  color: white;
+  color: #FFF;
 }
 .col-book ::placeholder {
-  color: white;
+  color: #FFF;
 }
 .col-book .sub-btn {
   background-color: #2a3b40;
-  border: white solid 1px;
-  color: white;
+  border: #FFF solid 1px;
+  color: #FFF;
   padding: 5px 0;
+}
+.col-book .sub-btn:hover {
+  background-color: #FFF;
+  color: #2a3b40;
 }
 
 .only-bg-2 {
   background-image: url(../images/bg7.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
+  padding: 50px 0;
   height: 100vh;
 }
 
 .discover-bg {
-  background-color: #d4d8d9;
+  background-color: #FFF;
   padding: 50px 0;
 }
 .discover-bg h1 {
@@ -313,14 +325,14 @@ html {
   font-size: larger;
   height: 40px;
   width: 40px;
-  background-color: white;
+  background-color: #FFF;
   color: #2a3b40;
   border-radius: 50%;
   line-height: 43px;
 }
 .user-reviwe .social-icon i:hover {
   background-color: #2a3b40;
-  color: white;
+  color: #FFF;
 }
 
 .footer h2 {

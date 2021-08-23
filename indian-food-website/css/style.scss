@@ -24,12 +24,17 @@ html{
 .navbar-default {
   background: none;
 }
+
 .top-nav-bar{
-    color: #FFF;
+    color: $white-color;
 
     a{
-        color: #FFF;
+        color: $white-color;
         font-size: x-large;
+
+        &:hover{
+            color: $yello-color;
+        }
     }
 }
 
@@ -42,10 +47,10 @@ html{
     @include heading;
 
     a{
-        background-color: #FFF;
+        background-color: $white-color;
         font-size: 35px;
         text-decoration: none;
-        color: #2c3a42;
+        color: $darkgray;
         padding: 0 10px;
     }
 }
@@ -55,15 +60,15 @@ html{
 }
 
 .flavours-bg{
-    background-color: #2a3b40;
+    background-color: $darkgray;
 }
 
 .tastes-col{
-    background-color: #d4d8d9;
+    background-color: $white-color;
 
     i{
         font-size: 20px;
-        color: #2a3b40;
+        color: $darkgray;
     }
 
     h6{
@@ -73,7 +78,7 @@ html{
 }
 
 .indian-plate{
-    @include img-bg;
+    @include img-bg(url(../images/bg2.jpg));
 
     .row:first-child{
         padding-left: 5.2rem;
@@ -106,9 +111,7 @@ html{
 
 .col-traditional{
     
-    background-image: url(../images/bg4.jpg);
-    background-position: center center;
-    background-size: cover;
+    @include img-bg(url(../images/bg4.jpg));
     padding: 40px 0 10px 0;
 
     h2{
@@ -122,21 +125,19 @@ html{
     }
 
     i{
-        color: #2a3b40;
+        color: $darkgray;
     }
 
     a{
         text-decoration: none;
-        color: #2a3b40;
+        color: $darkgray;
         padding: 0 20px;
         font-weight: bolder;
     }
 }
 
 .col-discover{
-    background-image: url(../images/bg5.jpg);
-    background-position: left top;
-    background-size: cover;
+    @include img-bg(url(../images/bg5.jpg));
     padding: 180px 0 0 0;
 
 }
@@ -157,9 +158,10 @@ html{
         font-weight: normal;
         font-size: 13px;
         padding: 0 80px 0 0;
+
+        strong{ font-size: 15px;}
     }
 
-    p strong{ font-size: 15px;}
 }
 
 .food-icons{
@@ -169,20 +171,18 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
+    background-color: $white-color;
     border-radius: 50%;
 }
 
 .only-bg{
-    background-image: url(../images/bg6.jpg);
-    background-size: cover;
-    background-position: center center;
+    @include img-bg(url(../images/bg6.jpg));
     height: 100vh;
 }
 
 .col-book{
-    background-color: #2a3b40;
-    color: #FFF;
+    background-color: $darkgray;
+    color: $white-color;
 
     h1{
         font-size: xx-large;
@@ -190,57 +190,60 @@ html{
     }
 
     .people-select{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
     }
 
     [type="text"]{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
     }
 
     [type="email"]{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
     }
 
     [type="date"]{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
     }
 
     [type="time"]{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
     }
 
     ::placeholder {
-        color: white;
+        color: $white-color;
     }
 
     .sub-btn{
-        background-color: #2a3b40;
-        border: white solid 1px;
-        color: white;
+        background-color: $darkgray;
+        border: $white-color solid 1px;
+        color: $white-color;
         padding: 5px 0;
+
+        &:hover{
+            background-color: $white-color;
+            color: $darkgray;
+        }
     }
 
 }
 
 .only-bg-2{
-    background-image: url(../images/bg7.jpg);
-    background-size: cover;
-    background-position: center center;
+    @include img-bg(url(../images/bg7.jpg));
     height: 100vh;
 }
 
 .discover-bg{
-    background-color: #d4d8d9;
+    background-color: $white-color;
     padding: 50px 0;
     
     @include heading2;
@@ -262,7 +265,7 @@ html{
         margin-top: 20px;
         font-size: small;
         font-weight: bold;
-        color: #2a3b40;
+        color: $darkgray;
     }
     
     p{
@@ -271,7 +274,7 @@ html{
 
     a{
         font-size: small;
-        color: #2a3b40;
+        color: $darkgray;
         border-bottom: #ff992b solid 5px;
         text-decoration: none;
 
@@ -284,7 +287,7 @@ html{
 }
 
 .user-reviwe{
-    background-color: #2a3b40;
+    background-color: $darkgray;
 
     i{
         font-size: xx-large;
@@ -301,14 +304,14 @@ html{
         font-size: larger;
         height: 40px;
         width: 40px;
-        background-color: white;
-        color: #2a3b40;
+        background-color: $white-color;
+        color: $darkgray;
         border-radius: 50%;
         line-height: 43px;
 
         &:hover{
-            background-color: #2a3b40;
-            color: white;
+            background-color: $darkgray;
+            color: $white-color;
         }
     }
 }
