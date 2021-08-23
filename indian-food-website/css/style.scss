@@ -29,10 +29,10 @@ html{
 }
 
 .white-box{
-    background-color: #d8dbdd;
     padding: 105px 0;
-    opacity: 0.8;
-    margin: 120px 0px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: saturate(180%) blur(10px);
+    margin-bottom: 450px;
 
     h1{
         font-size: 50px;
@@ -52,6 +52,10 @@ html{
         color: #2c3a42;
         padding: 0 10px;
     }
+}
+
+.carousel-inner{
+    height: 100vh;
 }
 
 .flavours-bg{
@@ -77,6 +81,11 @@ html{
     background-position: center center;
     background-size: cover;
     padding: 50px 0;
+
+    .row:first-child{
+        padding-left: 5.2rem;
+        padding-right: 5.2rem;
+    }
 }
 
 .trasparent-bg{
@@ -91,12 +100,14 @@ html{
         font-size: 40px;
         color: #2a3b40;
         line-height: 40px;
+        font-weight: bold;
     }
 
     h2{
         font-size: 40px;
         color: #ad6c12;
         line-height: 40px;
+        font-weight: bold;
         text-transform: uppercase;
     }
 
@@ -109,14 +120,14 @@ html{
     p{  
         font-weight: normal;
         font-size: 13px;
-        padding: 0 60px;
+        padding: 0 50px;
     }
 }
 
 .col-traditional{
     
     background-image: url(../images/bg4.jpg);
-    background-position: left top;
+    background-position: center center;
     background-size: cover;
     padding: 40px 0 10px 0;
 
@@ -283,9 +294,88 @@ html{
         text-align: center;
     }
 
+    figure{
+        margin-bottom: 0;
+    }
+
     figure img{
         width: 100%;
     }
 
+    h6{
+        font-size: small;
+        margin-top: 0px;
+    }
+
+    h5{
+        margin-top: 20px;
+        font-size: small;
+        font-weight: bold;
+        color: #2a3b40;
+    }
     
+    p{
+        font-size: small;
+    }
+
+    a{
+        font-size: small;
+        color: #2a3b40;
+        border-bottom: #ff992b solid 5px;
+        text-decoration: none;
+
+        &:hover{
+        color: #ff992b;
+        }
+    }
+    
+    
+}
+
+.user-reviwe{
+    background-color: #2a3b40;
+
+    i{
+        font-size: xx-large;
+    }
+
+    p{
+        padding: 30px 280px 0px 280px;
+    }
+    h4{
+        padding: 0px 0 30px 0;
+    }
+
+    .social-icon i{
+        font-size: larger;
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        color: #2a3b40;
+        border-radius: 50%;
+        line-height: 43px;
+
+        &:hover{
+            background-color: #2a3b40;
+            color: white;
+        }
+    }
+}
+
+.footer{
+    h2{
+        font-size: xx-large;
+        text-transform: capitalize;
+    }
+
+    ul{
+       list-style: none;
+       padding-left: 0px;
+       
+        li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
 }

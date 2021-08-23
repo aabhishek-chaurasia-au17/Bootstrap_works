@@ -28,10 +28,11 @@ html {
 }
 
 .white-box {
-  background-color: #d8dbdd;
   padding: 105px 0;
-  opacity: 0.8;
-  margin: 120px 0px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+  margin-bottom: 450px;
 }
 .white-box h1 {
   font-size: 50px;
@@ -48,6 +49,10 @@ html {
   text-decoration: none;
   color: #2c3a42;
   padding: 0 10px;
+}
+
+.carousel-inner {
+  height: 100vh;
 }
 
 .flavours-bg {
@@ -72,6 +77,10 @@ html {
   background-size: cover;
   padding: 50px 0;
 }
+.indian-plate .row:first-child {
+  padding-left: 5.2rem;
+  padding-right: 5.2rem;
+}
 
 .trasparent-bg {
   background: rgba(255, 255, 255, 0.6);
@@ -85,11 +94,13 @@ html {
   font-size: 40px;
   color: #2a3b40;
   line-height: 40px;
+  font-weight: bold;
 }
 .trasparent-bg h2 {
   font-size: 40px;
   color: #ad6c12;
   line-height: 40px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .trasparent-bg h3 {
@@ -100,12 +111,12 @@ html {
 .trasparent-bg p {
   font-weight: normal;
   font-size: 13px;
-  padding: 0 60px;
+  padding: 0 50px;
 }
 
 .col-traditional {
   background-image: url(../images/bg4.jpg);
-  background-position: left top;
+  background-position: center center;
   background-size: cover;
   padding: 40px 0 10px 0;
 }
@@ -259,6 +270,71 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
+.discover-bg figure {
+  margin-bottom: 0;
+}
 .discover-bg figure img {
   width: 100%;
+}
+.discover-bg h6 {
+  font-size: small;
+  margin-top: 0px;
+}
+.discover-bg h5 {
+  margin-top: 20px;
+  font-size: small;
+  font-weight: bold;
+  color: #2a3b40;
+}
+.discover-bg p {
+  font-size: small;
+}
+.discover-bg a {
+  font-size: small;
+  color: #2a3b40;
+  border-bottom: #ff992b solid 5px;
+  text-decoration: none;
+}
+.discover-bg a:hover {
+  color: #ff992b;
+}
+
+.user-reviwe {
+  background-color: #2a3b40;
+}
+.user-reviwe i {
+  font-size: xx-large;
+}
+.user-reviwe p {
+  padding: 30px 280px 0px 280px;
+}
+.user-reviwe h4 {
+  padding: 0px 0 30px 0;
+}
+.user-reviwe .social-icon i {
+  font-size: larger;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: #2a3b40;
+  border-radius: 50%;
+  line-height: 43px;
+}
+.user-reviwe .social-icon i:hover {
+  background-color: #2a3b40;
+  color: white;
+}
+
+.footer h2 {
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
